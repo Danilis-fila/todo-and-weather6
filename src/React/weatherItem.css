@@ -1,0 +1,80 @@
+.weather-card {
+    background-color: white;
+    height: auto;
+    width: 290px;
+    padding: 5px 15px 0;
+}
+
+.card-city {
+    font-size: 18px;
+    color: #09f;
+    margin-bottom: 10px;
+}
+
+.card-data-time {
+    margin-bottom: 10px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-areas: 'w1 w2 w3';
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.card-temperature-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: w1;
+    width: 90px;
+    height: 44px;
+    background-color: rgba(255, 192, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 192, 0, 1);
+    font-size: 32px;
+}
+
+.card-icon {
+    grid-area: w2;
+}
+
+.card-description {
+    grid-area: w3;
+}
+
+.card-info {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.card-info::before{
+    border-bottom: 1px dotted hsla(0,0%,47%,.4);
+    bottom: 3px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.card-info-title {
+    background-color: #fff;
+    color: #777;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0 5px 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+.card-info-dimension {
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 5px;
+    position: relative;
+    z-index: 1;
+}

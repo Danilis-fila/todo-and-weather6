@@ -1,0 +1,30 @@
+.conteiner {
+    text-align: center;
+}
+
+.add-field {
+    margin-bottom: 30px;
+}
+
+.add-field input {
+    border-bottom: 1px solid black;
+    margin-right: 25px;
+    width: 250px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+.add-field button {
+    width: 80px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.list-items {
+    margin: 0 auto;
+    width: 540px;
+    max-height: 590px;
+    overflow: auto;
+}

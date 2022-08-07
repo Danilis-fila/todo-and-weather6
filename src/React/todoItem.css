@@ -1,0 +1,23 @@
+.todo-item {
+    width: 500px;
+    min-height: 60px;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.todo-title-item {
+    word-wrap: break-word;
+    width: 95%;
+    padding: 10px;
+}
+
+.todo-item-delete {
+   margin: 10px;
+   background-color: transparent;
+}
+
+.todo-item-delete:hover {
+    color: red;
+ }
