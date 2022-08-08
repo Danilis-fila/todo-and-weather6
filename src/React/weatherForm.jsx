@@ -21,7 +21,7 @@ export default function WeatherForm() {
         <div className="conteiner-weatherForm">
             {weatherStatus === 'pending' && <div className='loader'></div>}
             {weatherStatus === 'fulfilled' && weatherComponents}
-            {weatherStatus === 'rejected' && <h2 style={{ fontSize: "24px" }}>Сервер пропал ‿︵‿ヽ(°□° )ノ︵‿︵</h2>}
+            {weatherStatus === 'rejected' || null && <h2 style={{ fontSize: "24px" }}>Сервер пропал ‿︵‿ヽ(°□° )ノ︵‿︵</h2>}
         </div>
     );
 }
